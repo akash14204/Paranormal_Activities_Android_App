@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Password Enforcer</string>
+    <string name="device_admin_explanation">For experimentation purposes only</string>
+    <string name="compliant">Your password is compliant!</string>
+    <string name="not_compliant">Your password is not compliant! Submit to my authority!</string>
+    <string name="password_failed">I know what u were Trying</string>
+    <string name="password_success">Welcome Bro</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
