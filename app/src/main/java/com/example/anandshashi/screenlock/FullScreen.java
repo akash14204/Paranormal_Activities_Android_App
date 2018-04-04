@@ -1,3 +1,6 @@
+/***
+ Developed by AKASH SINGH SENGAR ON 5TH APRIL 2018
+ */
 package com.example.anandshashi.screenlock;
 
 import android.net.Uri;
