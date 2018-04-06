@@ -8,6 +8,7 @@ import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
@@ -29,7 +30,7 @@ public class MainActivity extends Activity {
         msgId= R.string.not_compliant;
       }
 
-      //Toast.makeText(this, msgId, Toast.LENGTH_LONG).show();
+      Toast.makeText(this, "Put wrong Lock Screen Password and see the Paranormal Activity(After Lock opens)", Toast.LENGTH_LONG).show();
     }
     else {
       Intent intent=

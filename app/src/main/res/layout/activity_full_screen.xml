@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="com.example.anandshashi.screenlock.FullScreen">
-
+    tools:context="com.paranormal.anandshashi.screenlock.FullScreen">
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="fill_parent"

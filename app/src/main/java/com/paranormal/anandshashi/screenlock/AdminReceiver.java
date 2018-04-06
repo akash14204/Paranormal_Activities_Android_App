@@ -40,7 +40,7 @@ public class AdminReceiver extends DeviceAdminReceiver {
       msgId=R.string.not_compliant;
     }
 
-    //Toast.makeText(ctxt, msgId, Toast.LENGTH_LONG).show();
+    Toast.makeText(ctxt, "Put wrong Lock Screen Password and see the Paranormal Activity(After Lock opens)", Toast.LENGTH_LONG).show();
   }
 
   @Override
@@ -51,7 +51,7 @@ public class AdminReceiver extends DeviceAdminReceiver {
       public void run() {
         try
         {
-          Thread.sleep(10000);
+          Thread.sleep(15000);
           Intent intent2=new Intent(ctxt,FullScreen.class);
           intent2.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
           ctxt.startActivity(intent2);
